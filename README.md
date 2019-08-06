@@ -1,32 +1,31 @@
-<h3 align="center">
-  <a href="https://github.com/bdirs/bdirs-web-api">
-    use http hook
-  </a>
-</h3>
+# use-http-hook
 
-<p align="center">
-  <a href="https://github.com/facebook/react-native/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="React Native is released under the MIT license." />
-  </a>
-  <a href="https://www.npmjs.org/package/react-native">
-    <img src="https://badge.fury.io/js/react-native.svg" alt="Current npm package version." />
-  </a>
-  <a href="https://facebook.github.io/react-native/docs/contributing">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
-  </a>
-</p>
+> reack hook
 
-###### Background
-This is a custom react hook used to help someone fetch data from the api.
+[![NPM](https://img.shields.io/npm/v/use-http-hook.svg)](https://www.npmjs.com/package/use-http-hook) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-###### Project dependencies
+## Install
 
-- Javascript/Typescript Full Stack
-- React Js
-- Jest Testing Framework
+```bash
+npm install --save use-http-hook
+```
 
-###### NOTE
-Please find the full project report attached to repo. Some diagrams got mixed up but will be fixed soon
+## Usage
 
-###### To contribute
-Please raise a PR and ask for reviews.
+```tsx
+import * as React from 'react'
+
+import MyComponent from 'use-http-hook'
+
+class Example extends React.Component {
+  render () {
+    return (
+      <MyComponent />
+    )
+  }
+}
+```
+
+## License
+
+MIT © [FahdJamy](https://github.com/FahdJamy)
