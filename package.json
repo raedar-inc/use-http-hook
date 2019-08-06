@@ -2,9 +2,9 @@
   "name": "use-http-hook",
   "version": "1.0.0",
   "description": "reack hook",
-  "author": "FahdJamy",
+  "author": "fahdJamy",
   "license": "MIT",
-  "repository": "FahdJamy/use-http-hook",
+  "repository": "https://github.com/raedar-inc/use-http-hook",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -19,7 +19,8 @@
     "start": "rollup -c -w",
     "prepare": "yarn run build",
     "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "gh-pages -d example/build",
+    "lint": "eslint src/index.ts"
   },
   "dependencies": {},
   "peerDependencies": {
